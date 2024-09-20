@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="card-body">
               <h5 class="card-title">Bài Học HTML</h5>
               <p class="card-text">Tìm hiểu về cấu trúc của các trang web với HTML.</p>
-              <a href="HTML_Introduction.html" class="btn btn-primary">Xem chi tiết</a>
+              <a href="./CSS_Introduction.php" class="btn btn-primary">Xem chi tiết</a>
             </div>
           </div>
         </div>

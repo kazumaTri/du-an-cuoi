@@ -82,7 +82,7 @@
     <!-- Navbar and Header -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <img
             src="..//img/logo.jpg"
             alt="Logo"
@@ -210,7 +210,7 @@
                         <i class="fas fa-book"></i>
                       </div>
                       <div class="lecture-title">
-                        <a href="What_is_HTML.html" class="btn btn-link p-0"
+                        <a href="What_is_HTML.php" class="btn btn-link p-0"
                           >css là gì?</a
                         >
                       </div>
@@ -220,7 +220,7 @@
                         <i class="fas fa-book"></i>
                       </div>
                       <div class="lecture-title">
-                        <a href="Element.html" class="btn btn-link p-0">
+                        <a href="Element.php" class="btn btn-link p-0">
                           Phần tử css là gì?
                         </a>
                       </div>

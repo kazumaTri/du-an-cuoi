@@ -206,7 +206,7 @@
                         <i class="fas fa-book"></i>
                       </div>
                       <div class="lecture-title">
-                        <a href="What_is_HTML.html" class="btn btn-link p-0"
+                        <a href="What_is_HTML.php" class="btn btn-link p-0"
                           >HTML là gì?</a
                         >
                       </div>

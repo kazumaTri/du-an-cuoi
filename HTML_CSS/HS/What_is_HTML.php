@@ -66,7 +66,7 @@
 
           // Chuyển hướng đến trang tiếp theo sau một khoảng thời gian
           setTimeout(() => {
-            window.location.href = "Element.html"; // Chuyển đến trang tiếp theo
+            window.location.href = "Element.php"; // Chuyển đến trang tiếp theo
           }, 500); // Thời gian delay 500ms
         });
       document
