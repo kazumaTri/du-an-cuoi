@@ -1,0 +1,27 @@
+{
+    "name": "hoc-lap-trinh/website",
+    "description": "Website học lập trình cơ bản với HTML và CSS",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'Dự án đã được cài đặt thành công!'"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+} 

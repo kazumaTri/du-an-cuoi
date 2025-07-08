@@ -1,0 +1,61 @@
+Cải tiến cho logo của Navbar .navbar-brand img {
+  border-radius: 50%;
+  border: 2px solid #fff; /* Đổi màu viền để nổi bật trên nền tối */
+}
+
+/* Hiệu ứng chuyển động cho thẻ card */
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Tinh chỉnh cho hình ảnh trong card */
+.card-img-top {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+/* Cải tiến cho menu dropdown */
+.dropdown-menu {
+  min-width: 200px;
+}
+
+/* Cải tiến cho footer */
+footer {
+  background-color: #343a40; /* Màu nền tối để làm nổi bật văn bản trắng */
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 1px solid #dee2e6; /* Đổi màu viền cho phù hợp với nền tối */
+}
+
+/* Tinh chỉnh cho nút tùy chỉnh */
+.btn-custom {
+  background-color: white; /* Nền trắng */
+  color: #007bff; /* Chữ màu xanh */
+  border: 1px solid #007bff; /* Viền màu xanh */
+  border-radius: 0.5rem; /* Bo góc cho nút */
+  margin-bottom: 0.5rem; /* Khoảng cách dưới mỗi nút */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+  background-color: #007bff; /* Nền xanh khi hover hoặc nhấn */
+  color: white; /* Chữ trắng khi hover hoặc nhấn */
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); /* Xóa shadow của Bootstrap khi nhấn */
+}
+
+/* Sửa lỗi xung đột với các quy tắc đã có */
+.card,
+.btn-custom {
+  transition: none; /* Để đảm bảo không bị xung đột */
+}

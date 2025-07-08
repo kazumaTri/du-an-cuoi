@@ -1,0 +1,20 @@
+/* .progress-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.progress-circle svg {
+  transform: rotate(-90deg);
+}
+.progress-circle .progressbar-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.progress-circle .progress-circle-path {
+  stroke-dasharray: 263.931;
+  stroke-dashoffset: 190.03;
+} */
